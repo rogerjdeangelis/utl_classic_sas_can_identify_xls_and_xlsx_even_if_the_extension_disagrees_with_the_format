@@ -1,0 +1,2 @@
+# utl_classic_sas_can_identify_xls_and_xlsx_even_if_the_extension_disagress_with_the_format
+Classic SAS can identify xls and xlsx even if the extension disagress with the format. Keywords: sas sql join merge big data analytics macros oracle teradata mysql sas communities stackoverflow statistics artificial inteligence AI Python R Java Javascript WPS Matlab SPSS Scala Perl C C# Excel MS Access JSON graphics maps NLP natural language processing machine learning igraph DOSUBL DOW loop stackoverflow SAS community.
