@@ -114,7 +114,7 @@ PROCESS
          retain ext "&ext";
       end;
       rc=dosubl('
-        %let fylout=%scan(&fyl.,1,%str(.))..&ext.z;
+        %let fylout=%scan(&fyl.,1,%str(.))..&ext;
         %put &=fylout;
         data _null_;
            infile "&fyl" lrecl=256 recfm=F length=length eof=eof unbuf;
@@ -235,7 +235,7 @@ same as above
          retain ext "&ext";
       end;
       rc=dosubl('
-        %let fylout=%scan(&fyl.,1,%str(.))..&ext.z;
+        %let fylout=%scan(&fyl.,1,%str(.))..&ext;
         %put &=fylout;
         data _null_;
            infile "&fyl" lrecl=256 recfm=F length=length eof=eof unbuf;
