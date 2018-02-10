@@ -116,7 +116,7 @@ Classic SAS can identify xls and xlsx even if the extension disagress with the f
              retain ext "&ext";
           end;
           rc=dosubl('
-            %let fylout=%scan(&fyl.,1,%str(.))..&ext.z;
+            %let fylout=%scan(&fyl.,1,%str(.))..&ext;
             %put &=fylout;
             data _null_;
                infile "&fyl" lrecl=256 recfm=F length=length eof=eof unbuf;
@@ -237,7 +237,7 @@ Classic SAS can identify xls and xlsx even if the extension disagress with the f
              retain ext "&ext";
           end;
           rc=dosubl('
-            %let fylout=%scan(&fyl.,1,%str(.))..&ext.z;
+            %let fylout=%scan(&fyl.,1,%str(.))..&ext;
             %put &=fylout;
             data _null_;
                infile "&fyl" lrecl=256 recfm=F length=length eof=eof unbuf;
